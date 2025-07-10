@@ -1,46 +1,54 @@
-# DIO QRCODE AND PASSWORD GENERATOR 🔒
+# 🔐 DIO QRCode and Password Generator
 
-## About 📝
+<img src="https://github.com/EwertonSolitto/dio-qrcode-generator/blob/main/assets/preview.png" alt="App preview" />
 
-A QR code and password generator made in node.js
+## 📝 About
 
-## Feature 🔥
+A simple and effective QR code and password generator built with **Node.js**.  
+Useful for creating secure passwords and sharing information via QR codes directly in the terminal.
 
-- Password generator
+## 🔥 Features
 
-- QR code generator
+✅ Generate strong random passwords  
+✅ Generate terminal-based QR codes  
+✅ Fully customizable via `.env` file
 
-## Technologies ⚡
+## ⚙️ Technologies
 
-- Javascript
+- 💻 JavaScript  
+- 🧠 Node.js
 
-- Node.js
+## 🔗 Dependencies
 
-## Dependencies 🔗
+- 🎨 [`chalk`](https://www.npmjs.com/package/chalk) – for styling the terminal output  
+- 📱 [`qrcode-terminal`](https://www.npmjs.com/package/qrcode-terminal) – for rendering QR codes in the terminal  
+- 💬 [`prompt`](https://www.npmjs.com/package/prompt) – for user interaction in the CLI
 
-- chalk
+## 🚀 Installation & Usage
 
-- qrcode-terminal
-
-- prompt
-
-## Installation 🔧
-
-Make sure to have **NodeJS** installed.
+> Make sure you have **Node.js** installed.
 
 ```bash
-
-# Clone repository
+# 📁 Clone the repository
 git clone https://github.com/EwertonSolitto/dio-qrcode-generator.git
 
-# Go to the directory
+# 📂 Navigate to the project folder
 cd dio-qrcode-generator
 
-# Install dependencies
-npm i
+# 📦 Install dependencies
+npm install
 
-# Start Application
-npm run start
+# Create the file
+touch .env
+
+# Add the following environment variables to the .env file:
+NUMBERS=true
+UPPERCASE_LETTERS=true
+LOWERCASE_LETTERS=true
+SPECIAL_CHARACTERS=true
+PASSWORD_LENGTH=12
+
+# ▶️ Run the Application
+npm start
 
 ```
-
