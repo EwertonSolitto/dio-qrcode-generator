@@ -41,6 +41,9 @@ npm install
 # Create the file
 touch .env
 
+``` 
+
+```env
 # Add the following environment variables to the .env file:
 NUMBERS=true
 UPPERCASE_LETTERS=true
@@ -48,6 +51,9 @@ LOWERCASE_LETTERS=true
 SPECIAL_CHARACTERS=true
 PASSWORD_LENGTH=12
 
+```
+
+```bash
 # ▶️ Run the Application
 npm start
 
