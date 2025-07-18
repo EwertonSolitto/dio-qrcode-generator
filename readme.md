@@ -28,33 +28,42 @@ Useful for creating secure passwords and sharing information via QR codes direct
 
 > Make sure you have **Node.js** installed.
 
+1. 📁 Clone the repository
+
 ```bash
-# 📁 Clone the repository
 git clone https://github.com/EwertonSolitto/dio-qrcode-generator.git
+```
 
-# 📂 Navigate to the project folder
+2. 📂 Navigate to the project folder
+
+```bash
 cd dio-qrcode-generator
+```
 
-# 📦 Install dependencies
+3. 📦 Install dependencies
+
+```bash
 npm install
+```
 
-# Create the file
+4. Create the file
+
+```bash
 touch .env
-
 ``` 
 
+5. Add the following environment variables to the .env file:
+
 ```env
-# Add the following environment variables to the .env file:
 NUMBERS=true
 UPPERCASE_LETTERS=true
 LOWERCASE_LETTERS=true
 SPECIAL_CHARACTERS=true
 PASSWORD_LENGTH=12
-
 ```
 
-```bash
-# ▶️ Run the Application
-npm start
+6. ▶️ Run the Application
 
+```bash
+npm start
 ```
